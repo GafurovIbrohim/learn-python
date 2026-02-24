@@ -130,3 +130,64 @@
 # word=input("Pythonda o'zgaruvchi turlarini kiriting  : ")
 # print(lugat.get(word, "Bunday o'zgaruvchi yo'q"))
 
+# dictonary={"integer":"Bu butun sonlar","float":"Bu kasr ko'rinishidagii sonlar","booleon":"Bu mantiqiy operatsiyalar"}
+# for k , q in dictonary.items():
+#     print(f"{k} ning manosi : {q}")
+
+# davlatlar = {
+#     "o'zbekiston":'toshkent',
+#     'aqsh':'washington d.c.',
+#     'rossiya':'moskva',
+#     'tojikiston':'dushanbe',
+#     "qirg'iziston":'bishkek',
+#     'qozog\'iston':'nursulton',
+#     'malayziya':'kuala-lumpur',
+#     'singapur':'sungapur',
+#     'italiya':'rim'}
+# country=input("Davlat nomini kiriting : ")
+# if country in davlatlar:
+#     print(davlatlar[country])
+
+
+# Navoiy={"Ism":"Alisher Navoiy","T-yili":1441,"T-joyi":"Hirot"}
+# Bobur={"Ism":"Zahiriddin Muhammad Bobur ", "T-yili":1456 , "T-joyi": "Samarqand"}
+# Beruniy={"Ism":"Beruniy","T-yili":None,"T-joyi":"Buxoro"}
+# Karimov={"Ism":"Islom Karimov ", "T-yili":1936 , "T-joyi": "Samarqand"}
+
+# fomouspersons=[Navoiy,Bobur,Beruniy,Karimov]
+
+
+# Navoiy['Asar']="Xamsa"
+# Bobur['Asar']="Boburnoma"
+# Beruniy["Asar"]="Geometriya"
+# Karimov["Asar"]="Yuksak manaviyat yengilmas kuch "
+
+# for person in fomouspersons:
+#     print(f"{person['Ism']} ning asarlaridan biri bu {person['Asar']} hisoblanadi . ")
+
+
+# friends=int(input("Sening nechta dosting bor"))
+# likekino={}
+# for i in range(friends):
+#     name=input(f"{i+1}-do'stingizni ismini kiriting : ")
+#     print(f"{name} yoqtiradigan 3 ta kinosini kiritishingiz kerak .")
+#     kinolar=[]
+#     for k in range(3):
+#        kino=input(f"{k+1}-kinoni kiriting : ")
+#        kinolar.append(kino)
+#     likekino[name]=kinolar
+
+# for name in likekino:
+#     print(f"{name} ning yoqtirgan kinolari : {likekino[name]}")
+
+
+davlatlar={"Uzbekiston":{"Poytaxti":"Toshkent","Millati":"Uzb"},"Qozoqiston":{"Poytaxti":"Dushanbe", "Millati":"Qozoq"}}
+print("Salom bu yerda sizni qiziqtirgan davlat haqida malumot olishingiz mumkin . ")
+country=input("Sizga qaysi davlat haqida malumot kerak : ")
+if country in davlatlar:
+    print(f"{country}ning poytaxti : {davlatlar[country]['Poytaxti']}")
+    print(f"{country}ning millati : {davlatlar[country]['Millati']}")
+else:
+    print("Lugatimizda bunday davlat yo'q")
+
+    
