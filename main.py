@@ -96,18 +96,37 @@
 
 
 #bank
-age=int(input("Yoshingizni kiriting : "))
-monthmoney=float(input("Oylik daramadingiz qancha :"))
-kredithistory=input("Kredit tarixingiz yaxshimi(ha/yoq): ")
-if kredithistory=="yoq":
-    print("Sizning kredit tarixingiz yomon . Sizga kredit bera olmaymiz !")
-elif monthmoney>10000000:
-    print("Tastiqladi")
-elif monthmoney <3000000:
-    print("Sizning oylik daromadingiz yetmaydi !")
-elif age<21 or age>60:
-    print("Yoshingiz togri kelmadi . ")
-else :
-    print("Sizga kredit ajratildi ")
+# age=int(input("Yoshingizni kiriting : "))
+# monthmoney=float(input("Oylik daramadingiz qancha :"))
+# kredithistory=input("Kredit tarixingiz yaxshimi(ha/yoq): ")
+# if kredithistory=="yoq":
+#     print("Sizning kredit tarixingiz yomon . Sizga kredit bera olmaymiz !")
+# elif monthmoney>10000000:
+#     print("Tastiqladi")
+# elif monthmoney <3000000:
+#     print("Sizning oylik daromadingiz yetmaydi !")
+# elif age<21 or age>60:
+#     print("Yoshingiz togri kelmadi . ")
+# else :
+#     print("Sizga kredit ajratildi ")
 
+
+ # Dictonory (lug'at)
+
+# brotherinfo={"name":"Botir" , "age":32, "t-yil":2000}
+# print(f"Akamning ismi {brotherinfo['name']} u {brotherinfo['age']} yoshda . Akam {brotherinfo['t-yil']} da tug'ilgan  ")
+
+# family={}
+# member=int(input("Oilangizda nechta odam bor : "))
+# for number in range(member):
+#     person=input(f"Oilangizdagi {number+1} - odamning ismini kiriting :")
+#     food=input(f"{person}ning sevimli taomini kiriting : ")
+#     family[person]=food
+# for k,q in family.items():
+#     print(f"{k} ning sevimli taomi {q}")
+
+
+# lugat={"integer":"Bu butun sonlar","float":"Bu kasr ko'rinishidagii sonlar","booleon":"Bu mantiqiy operatsiyalar"}
+# word=input("Pythonda o'zgaruvchi turlarini kiriting  : ")
+# print(lugat.get(word, "Bunday o'zgaruvchi yo'q"))
 
