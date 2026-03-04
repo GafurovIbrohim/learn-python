@@ -21,16 +21,5 @@
 # print("Bugun ",tanla ,"yeymiz")
 
 
-import random as r
-print("BU mini o'yin . Ya'ni kompyuter bir son o'ylaydi , siz uni topishingiz kerak 1-10 gacha")
-son=r.randint(1,10)
-while True:
-    inputson=int(input("Son kiriting : "))
-    if son==inputson:
-        print("To'g'ri topdingiz")
-        break
-    else:
-        print("Xato")
-
 
     

@@ -76,3 +76,4 @@
 #         break
 
 # # print("Talaba haqida malumotlar : ",studentinfo(name,surname,**addinfo))
+
