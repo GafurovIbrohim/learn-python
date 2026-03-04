@@ -1,4 +1,9 @@
 # Studenlar malumotlarini kiriuvchi funksiya istalgancha malumot kiritsa boladi . 
+# import function as fn
+
+# newmodul=fn.studentinfo(fn.name,fn.surname,**fn.addinfo)
+# print(newmodul)
+# print("Tugadi")
 
 #  def studentinfo(name,surname,**addinfo):
 #     newinfo={}
@@ -21,3 +26,4 @@
 #         break
 
 # print("Talaba haqida malumotlar : ",studentinfo(name,surname,**addinfo))
+
