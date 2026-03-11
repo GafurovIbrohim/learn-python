@@ -1,1 +1,0 @@
-[{"ism": "Ibrohim", "familiya": "G'afurov", "yosh": 23, "bosqich": 4}, {"ism": "Alijon", "familiya": "Valiyev", "yosh": 22, "bosqich": 3}, {"ism": "Dilshod", "familiya": "Choriyev", "yosh": 20, "bosqich": 1}]
